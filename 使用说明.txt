@@ -1,0 +1,7 @@
+用Windows自带的批处理写的，主要是简单，
+可以编辑list.txt来改变随机抽选的值。运行start.bat即可运行，重新运行请按回车/确认/ENTER
+修改字体大小（首次使用）.reg可以调节字体大小为最大，同时将字体改为红色，在新设备上需要执行一次即可
+VER2.5
+By chingsky-liu
+https://github.com/chingsky-liu/cx-name
+GNU General Public License v3.0
