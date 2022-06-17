@@ -1,18 +1,18 @@
 @echo off
 :input
-title CXÃû×Ö×Ô¶¯³éÈ¡ VER:2.5 DATE:21-4-30 By:chingsky-liu
-::bat±êÌâ
+title æˆ‘ä¹Ÿæ²¡æƒ³å¥½å«å•¥åå­—
+::batæ ‡é¢˜
 :1
 :a
-echo ÊäÈës¿ªÊ¼£¬c¹Ø±Õ
-set /p var=ÇëÊäÈë:
+echo è¾“å…¥så¼€å§‹ï¼Œcå…³é—­
+set /p var=è¯·è¾“å…¥:
 if %var%==s goto a1
 if %var%==c goto a2
-echo ÊäÈë³¬³öÔ¤¶¨Öµ,ÇëÖØĞÂÊäÈë&pause&cls&goto a
+echo è¾“å…¥è¶…å‡ºé¢„å®šå€¼,è¯·é‡æ–°è¾“å…¥&pause&cls&goto a
 :a1
 for %%i in (%0) do set aa=%%~dpi 
 cd /d %aa%
-echo START£¬ÈôĞèÖØĞÂÖ´ĞĞÇë°´Enter
+echo STARTï¼Œè‹¥éœ€é‡æ–°æ‰§è¡Œè¯·æŒ‰Enter
 
 
 @echo off
